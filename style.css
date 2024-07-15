@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    background-color: #a43c5a;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 75px);
+    border: 5px solid #fff;
+}
+
+.header h1 {
+    margin: 0;
+    padding-top: 180px;
+    font-size: 36px;
+    
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.about-me,
+.professional-experience {
+    margin-bottom: 40px;
+}
+
+.about-me h3,
+.professional-experience h3 {
+    color: #a43c5a;
+    border-bottom: 2px solid #a43c5a;
+    padding-bottom: 5px;
+}
+
+.professional-experience .job {
+    margin-bottom: 20px;
+}
+
+.professional-experience .job h4 {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.professional-experience .job p {
+    margin: 0 0 10px 0;
+    color: #777;
+}
+
+.professional-experience .job ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #555;
+}
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
