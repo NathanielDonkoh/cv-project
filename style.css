@@ -50,6 +50,7 @@ body {
 
 .main-content {
     padding: 20px;
+    margin-top: 20px;
 }
 
 .about-me,
@@ -95,4 +96,7 @@ body {
     font-weight: 100;
     font-style: normal;
   }
-  
+.BoxSeperate {
+
+    padding-top: 50px;
+}
